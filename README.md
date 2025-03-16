@@ -10,7 +10,7 @@
    - 백엔드: Java, Spring Boot, JPA, Lombok, MySQL.
 
 3. React (frontend):
-   - React Router로 사용자 페이지(/starbucks)와 관리자 페이지(/admin) 분리.
+   - Next.js로 사용자 페이지(/starbucks)와 관리자 페이지(/admin) 분리.
    - 이미지 파일은 public/images에 저장, 파일명만 데이터베이스에 저장.
    - @RestController로 API 제공 (/, /starbucks, /starbucks/coffee, /starbucks/coffee/findall.do(전체 출력 페이지), /starbucks/coffee/find.do/coffeeno=? (커피 개별 페이지)).
    - @RestController의 매핑 주소와 라우터의 주소가 동일하게 설계
@@ -35,16 +35,10 @@
    - React에서 /admin 경로로 관리자 페이지 구현.
    - API를 통해 메뉴 추가/수정/삭제 기능 지원.
 
-8. 서버 기본 상식
+8. 서버와 연동
 - 서버: 데이터를 처리하고 요청을 응답하는 역할.
 - HTTP: 프론트엔드와 백엔드가 데이터를 주고받을 때 사용하는 프로토콜.
   - 프론트엔드는 요청(Request)을 보내고, 백엔드는 응답(Response)을 돌려줌.
-  - 요청 방식(메서드):
-    - GET: 데이터를 가져오기.
-    - POST: 데이터를 추가하기.
-    - PUT: 데이터를 수정하기.
-    - DELETE: 데이터를 삭제하기.
-- REST API: 데이터를 주고받기 위해 정해진 규칙에 따라 설계된 URL과 메서드의 집합.
-   - API 명세 확인: 요청할 URL, 메서드(GET, POST 등), 필요한 데이터를 알고 있어야 함.  
+  - fetch를 사용해서 기존에 하던 json을 받아오는 방식과 동일
 
    ㅎㅇㅌ
