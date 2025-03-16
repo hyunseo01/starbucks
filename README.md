@@ -8,7 +8,6 @@
 2. 기술 스택:
    - 프론트엔드: HTML, CSS, JS, TS, React, Next.js
    - 백엔드: Java, Spring Boot, JPA, Lombok, MySQL.
-   - @RestController의 매핑 주소와 라우터의 주소가 동일하게 설계(중요)
 
 3. React (frontend):
    - React Router로 사용자 페이지(/starbucks)와 관리자 페이지(/admin) 분리.
