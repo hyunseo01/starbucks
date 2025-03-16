@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+프론트 작업 초기 설정
+1. 프로젝트 초대받고 대기(브랜치 생성 x)
+2. 프론트에서 팀장 한명을 정하고 그사람은 master 체크하고 git clone
+3. 프론트 팀원들은 대기
+4. 프론트 팀장이 깃클론 되어있는 상태에서 본인 브랜치가 아닌 
+마스터 브랜치에서 모듈 설치 및 초기 파일 구조 세팅 
+예) 컴포넌트, 페이지, 스타일, 이것저것 알잘딱깔센 ㅇㅋ?
+5. 마스터 브랜치 푸시 업데이트 된거 확인
+6. 팀장 포함 팀원들은 각자 브랜치 생성
+7. 깃허브에서 각자 브랜치로 체크하고 git clone
+8. vscode에서 git branch 로 본인 브랜치가 맞는지 확인
+9. 작업 시작..
 
-## Getting Started
+고려해야할 내용
+1. 앱에서 스타벅스, 마스터 나눠야됨
+2. 충돌나지 않게 각자 폴더에서 본인폴더 다시 나눠야됨
+예) component 에서 misoComponent, hyunseoComponent, hyohwanComponent
+꼭 예시대로 하는게 아닌 3분이서 정해서 할게요 모든 파일이 다 이런식으로 나누어져야 충돌이 안남
+위에 이걸 위에 4번에서 팀장이 먼저 잘 놔누면 좋음
+제 관리자 부분도 다 나누어져야됩니다. 
+화이팅해요 
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git push 할떄 주의사항
+1. 작업 및 git push는 ***무조건*** 본인 브랜치에서 해야합니다
+2. 앵간하면 4명이 동시에 깃푸시 하는게 좋고 팀장들이 병합 진행해야 충돌이 적게나요
+3. 그럼 팀장, 팀원들은 마스터에서 가져와서 그걸 본인 브랜치에 적용
+4. 다시 작업 시작
