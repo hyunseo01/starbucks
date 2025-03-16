@@ -12,6 +12,8 @@
 3. React (frontend):
    - React Router로 사용자 페이지(/starbucks)와 관리자 페이지(/admin) 분리.
    - 이미지 파일은 public/images에 저장, 파일명만 데이터베이스에 저장.
+   - @RestController로 API 제공 (/, /starbucks, /starbucks/coffee, /starbucks/coffee/findall.do(전체 출력 페이지), /starbucks/coffee/find.do/coffeeno=? (커피 개별 페이지)).
+   - @RestController의 매핑 주소와 라우터의 주소가 동일하게 설계
 
 4. Spring Boot (backend):
    - @RestController로 API 제공 (/, /starbucks, /starbucks/coffee, /starbucks/coffee/findall.do(전체 출력 페이지), /starbucks/coffee/find.do/coffeeno=? (커피 개별 페이지)).
